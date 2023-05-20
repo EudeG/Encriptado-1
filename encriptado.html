@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 class="titulo">Encriptando tu mensaje</h2>
+
+    <div class="mensaje">        
+        <h3 class="subtitulos"> Escribe tu mensaje a encriptar o desencriptar:</h3>
+        <input class="contenido" width="300px" type="texto" id="contenido">
+    </div>
+
+    <div>
+       <h3 class="subtitulos"> Escoge tu cifrado: </h3>
+        <label for="Eleccion">Tipo de cifrado</label>
+            <select id="opciones">
+                <option value="" id="null">--Escoge una opcion--</option>
+                <option value="" id="cesar">Cesar</option>
+                <option value="" id="vigenere">Vigenere</option>
+                <option value="" id="zigzag">Zig Zag</option>
+            </select>
+    </div>    
+
+    <div class="clave">    
+        <h3 class="subtitulos"> Clave o desplazamiento: </h3>    
+        <input class="contenido" type="texto" id="clave">
+    </div>
+
+    <div class="botones">
+        <button id="botonCifrar">Cifrar</button>
+        <button id="botonDescifrar">Descifrar</button>
+    </div>
+    
+    <div>
+        <h3 class="subtitulos"> Mensaje cifrado/descifrado:</h3>
+        <input class="contenido" type="text" id="contenidoFinal">
+    </div>
+</body>
+</html>
